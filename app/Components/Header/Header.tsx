@@ -1,13 +1,5 @@
 import Link from "next/link"
-import {
-  Sheet,
-  SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet"
-import { Menu } from "lucide-react"
+
 
 const header = () => {
   return (
@@ -24,14 +16,7 @@ const header = () => {
             </li>
         </ul>
         
-       <Sheet>
-  <SheetTrigger className="text-xl md:hidden">
-    <Menu />
-  </SheetTrigger>
-  <SheetContent>
-    <SheetHeader>
-      <SheetTitle>SYED SAUD SAAD</SheetTitle>
-      <SheetDescription>
+       
       <ul>
             <li className="space-x-5 pr-4 flex flex-col">
                <Link href={"/"}>home</Link>
@@ -43,10 +28,7 @@ const header = () => {
         </ul>
 
 
-      </SheetDescription>
-    </SheetHeader>
-  </SheetContent>
-</Sheet> 
+      
 
     
     </header>

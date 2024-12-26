@@ -21,9 +21,9 @@ const Footer = () => {
             </div>
             <p className="mt-2">you may also find me on these platformes!</p>
             <div className="flex justify-evenly items-center space-x-10 mt-2">
-            <FaGithub className="text-2xl"/>
-            <FaLinkedin className="text-2xl text-blue-400" />
-            <FaFacebook  className="text-2xltext-blue-500"/>
+            <FaGithub />
+            <FaLinkedin  />
+            <FaFacebook />
             </div>
         </div>
     </main>

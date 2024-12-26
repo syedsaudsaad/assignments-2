@@ -37,7 +37,7 @@ const work = () => {
             </div>
             <div className="w-full flex flex-col md:flex-row justify-center items-center bg-white mt-10 p-10 rounded-xl shadow-lg">
             <div className="w-[90%] md:w-[30%]  flex justify-center items-center "></div>
-            < Link href={"/https://themeselection.com/next-js-ecommerce-template//"}><FaExternalLinkAlt className="mt-4" /></Link>
+            < Link href={"/https://themeselection.com/next-js-ecommerce-template//"}><FaExternalLinkAlt /></Link>
             </div>
             <div className="w-full flex flex-col md:flex-row justify-center items-center bg-white mt-10 p-10 rounded-xl shadow-lg">
             <div className="w-[90%] md:w-[30%]  flex justify-center items-center ">
@@ -63,7 +63,7 @@ const work = () => {
                   </div>
             </div>
             <div>
-            < Link href={"/https://themeselection.com/next-js-ecommerce-template//"}><FaExternalLinkAlt className="mt-4" /></Link>
+            < Link href={"/https://themeselection.com/next-js-ecommerce-template//"}><FaExternalLinkAlt  /></Link>
             </div>
 
         </div>
