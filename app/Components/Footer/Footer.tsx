@@ -16,14 +16,14 @@ const Footer = () => {
                 <p className="mt-3 text=center text-xs md:text-lg  bg-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quaerat, eaque modi obcaecati at facilis iusto recusandae officia minima autem accusantium excepturi error earum ex unde magni! Nemo, doloremque excepturi?</p>
             </div>
             <div className="mt-4 space-y-4">
-                <h1 className="flex md:text-3xl justify-center items-center font-bold"><CiMail className="mr-3 text-4xl"/>SAUD@EMAIL.COM<GoCopy className="ml-3 cursor-pointer" /></h1>
-                <h2 className="flex md:text-3xl justify-center items-center"><CiPhone className="mr-3 text-4xl" />03014564583<GoCopy  className="ml-3 cursor-pointer"/></h2>
+                <h1 className="flex md:text-3xl justify-center items-center font-bold"><CiMail />SAUD@EMAIL.COM<GoCopy  /></h1>
+                <h2 className="flex md:text-3xl justify-center items-center"><CiPhone  />03014564583<GoCopy  /></h2>
             </div>
             <p className="mt-2">you may also find me on these platformes!</p>
             <div className="flex justify-evenly items-center space-x-10 mt-2">
             <FaGithub className="text-2xl"/>
             <FaLinkedin className="text-2xl text-blue-400" />
-            <FaFacebook className="text-2xl text-blue-500"/>
+            <FaFacebook  className="text-2xltext-blue-500"/>
             </div>
         </div>
     </main>
